@@ -163,3 +163,111 @@ export const POSTS: Post[] = [
     readTime: "5 min read",
   },
 ];
+
+// Freelance work — showcased on /work
+export type FreelanceWork = {
+  title: string;
+  description: string;
+  url: string;
+  image: string;
+  category: string;
+};
+
+export const FREELANCE_WORK: FreelanceWork[] = [
+  {
+    title: "NeuralFlow AI",
+    description:
+      "AI agency website — custom AI agents and workflow automations to eliminate manual tasks and scale operations.",
+    url: "https://neuralflow-ai-blue.vercel.app/",
+    image: "/work/neuralflow-ai.png",
+    category: "AI / SaaS",
+  },
+  {
+    title: "TaskFlow AI",
+    description:
+      "Intelligent workspace for high-performance teams with AI task creation, workflow automation, and real-time analytics.",
+    url: "https://task-flow-ai-2.vercel.app/",
+    image: "/work/taskflow-ai-2.png",
+    category: "AI / SaaS",
+  },
+  {
+    title: "TaskFlow AI v2",
+    description:
+      "Redesigned version of TaskFlow AI — project management platform with AI-driven scoping, capacity-based assignment, and collaboration tools.",
+    url: "https://task-flow-ai-nine.vercel.app/",
+    image: "/work/taskflow-ai.png",
+    category: "AI / SaaS",
+  },
+  {
+    title: "Aurelia Estates",
+    description:
+      "Luxury real estate platform showcasing premium properties in Beverly Hills, Malibu, and Aspen with immersive property tours.",
+    url: "https://aurelia-estates-three.vercel.app/",
+    image: "/work/aurelia-estates.png",
+    category: "Real Estate",
+  },
+  {
+    title: "OUTFIT®",
+    description:
+      "Modern e-commerce store for custom signature apparel celebrating design-themed clothing and creative culture.",
+    url: "https://outfit-inky.vercel.app/",
+    image: "/work/outfit.png",
+    category: "E-Commerce",
+  },
+  {
+    title: "GROWD Agency",
+    description:
+      "Creative digital agency specializing in brand strategy, web design, development, and digital marketing.",
+    url: "https://growd-agency.vercel.app/",
+    image: "/work/growd-agency.png",
+    category: "Agency",
+  },
+  {
+    title: "Atmasakshi Foundation",
+    description:
+      "Non-profit organization website focused on education, skill development, women empowerment, and community service.",
+    url: "https://www.atmasakshifoundation.org/",
+    image: "/work/atmasakshi-foundation.png",
+    category: "Non-Profit",
+  },
+  {
+    title: "Kalarava",
+    description:
+      "Annual cultural and academic fest website for KLE Society's College — showcasing events across arts, culture, and tech.",
+    url: "https://www.kalarava.xyz/",
+    image: "/work/kalarava.png",
+    category: "Events",
+  },
+  {
+    title: "Valentine",
+    description:
+      "Interactive Valentine's Day web experience with playful animations and floating hearts — a fun digital love letter.",
+    url: "https://valentine-ten-drab.vercel.app/",
+    image: "/work/valentine.png",
+    category: "Creative",
+  },
+  {
+    title: "Obsidian",
+    description:
+      "Premium brand website with dark, sophisticated aesthetics — sleek design and immersive visual storytelling.",
+    url: "https://obsidian-co.vercel.app/",
+    image: "/work/obsidian.png",
+    category: "Branding",
+  },
+  {
+    title: "Hot Coffee",
+    description:
+      "Artisan coffee shop website with warm aesthetics, menu showcase, and an inviting digital experience.",
+    url: "https://hotcoffee-five.vercel.app/",
+    image: "/work/hotcoffee.png",
+    category: "Food & Beverage",
+  },
+  {
+    title: "Revoxa",
+    description:
+      "Modern tech/startup landing page with bold design, dynamic animations, and conversion-focused layout.",
+    url: "https://revoxa2-0.vercel.app/",
+    image: "/work/revoxa.png",
+    category: "Startup",
+  },
+];

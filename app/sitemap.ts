@@ -5,6 +5,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const staticPages = [
     { url: SITE.url, priority: 1 },
     { url: `${SITE.url}/projects`, priority: 0.9 },
+    { url: `${SITE.url}/work`, priority: 0.9 },
     { url: `${SITE.url}/experience`, priority: 0.8 },
     { url: `${SITE.url}/about`, priority: 0.8 },
     { url: `${SITE.url}/contact`, priority: 0.7 },
