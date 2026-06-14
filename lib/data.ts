@@ -175,6 +175,38 @@ export type FreelanceWork = {
 
 export const FREELANCE_WORK: FreelanceWork[] = [
   {
+    title: "Atmasakshi Foundation",
+    description:
+      "Non-profit organization website focused on education, skill development, women empowerment, and community service.",
+    url: "https://www.atmasakshifoundation.org/",
+    image: "/work/atmasakshi-foundation.png",
+    category: "Non-Profit",
+  },
+  {
+    title: "Kalarava",
+    description:
+      "Annual cultural and academic fest website for KLE Society's College — showcasing events across arts, culture, and tech.",
+    url: "https://www.kalarava.xyz/",
+    image: "/work/kalarava.png",
+    category: "Events",
+  },
+  {
+    title: "OUTFIT®",
+    description:
+      "Modern e-commerce store for custom signature apparel celebrating design-themed clothing and creative culture.",
+    url: "https://outfit-inky.vercel.app/",
+    image: "/work/outfit.png",
+    category: "E-Commerce",
+  },
+  {
+    title: "GROWD Agency",
+    description:
+      "Creative digital agency specializing in brand strategy, web design, development, and digital marketing.",
+    url: "https://growd-agency.vercel.app/",
+    image: "/work/growd-agency.png",
+    category: "Agency",
+  },
+  {
     title: "NeuralFlow AI",
     description:
       "AI agency website — custom AI agents and workflow automations to eliminate manual tasks and scale operations.",
@@ -205,38 +237,6 @@ export const FREELANCE_WORK: FreelanceWork[] = [
     url: "https://aurelia-estates-three.vercel.app/",
     image: "/work/aurelia-estates.png",
     category: "Real Estate",
-  },
-  {
-    title: "OUTFIT®",
-    description:
-      "Modern e-commerce store for custom signature apparel celebrating design-themed clothing and creative culture.",
-    url: "https://outfit-inky.vercel.app/",
-    image: "/work/outfit.png",
-    category: "E-Commerce",
-  },
-  {
-    title: "GROWD Agency",
-    description:
-      "Creative digital agency specializing in brand strategy, web design, development, and digital marketing.",
-    url: "https://growd-agency.vercel.app/",
-    image: "/work/growd-agency.png",
-    category: "Agency",
-  },
-  {
-    title: "Atmasakshi Foundation",
-    description:
-      "Non-profit organization website focused on education, skill development, women empowerment, and community service.",
-    url: "https://www.atmasakshifoundation.org/",
-    image: "/work/atmasakshi-foundation.png",
-    category: "Non-Profit",
-  },
-  {
-    title: "Kalarava",
-    description:
-      "Annual cultural and academic fest website for KLE Society's College — showcasing events across arts, culture, and tech.",
-    url: "https://www.kalarava.xyz/",
-    image: "/work/kalarava.png",
-    category: "Events",
   },
   {
     title: "Valentine",
