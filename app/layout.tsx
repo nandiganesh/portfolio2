@@ -5,6 +5,7 @@ import SmoothScrollProvider from "@/components/SmoothScrollProvider";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import CustomCursor from "@/components/CustomCursor";
+import Preloader from "@/components/Preloader";
 import { SITE, SOCIALS } from "@/lib/data";
 
 const inter = Inter({
@@ -124,6 +125,7 @@ export default function RootLayout({
         />
       </head>
       <body className="font-body bg-background text-foreground antialiased noise-overlay">
+        <Preloader />
         <SmoothScrollProvider>
           <CustomCursor />
           <Navbar />
