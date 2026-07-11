@@ -128,9 +128,16 @@ export type ExperienceItem = {
 
 export const EXPERIENCE: ExperienceItem[] = [
   {
+    company: "Freelance",
+    role: "Full-Stack Developer",
+    period: "Jan 2025 — Present",
+    description:
+      "Designed and developed custom web applications, e-commerce stores, and AI workflow platforms for various international clients.",
+  },
+  {
     company: "Company Name",
     role: "Full-Stack Developer",
-    period: "Jan 2024 — Present",
+    period: "Jan 2024 — Dec 2024",
     description:
       "Describe your responsibilities and key achievements. Use specific, measurable outcomes where possible.",
     url: "https://example.com",
