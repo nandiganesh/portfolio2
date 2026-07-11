@@ -134,22 +134,6 @@ export const EXPERIENCE: ExperienceItem[] = [
     description:
       "Designed and developed custom web applications, e-commerce stores, and AI workflow platforms for various international clients.",
   },
-  {
-    company: "Company Name",
-    role: "Full-Stack Developer",
-    period: "Jan 2024 — Dec 2024",
-    description:
-      "Describe your responsibilities and key achievements. Use specific, measurable outcomes where possible.",
-    url: "https://example.com",
-  },
-  {
-    company: "Previous Company",
-    role: "Frontend Developer Intern",
-    period: "Jun 2023 — Dec 2023",
-    description:
-      "Describe what you built, technologies used, and impact delivered.",
-    url: "https://example.com",
-  },
 ];
 
 // Optional: blog/thoughts section (great for SEO + AEO)
