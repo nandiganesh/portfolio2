@@ -9,21 +9,23 @@ export const SITE = {
   tagline: "I build fast, accessible, and scalable products for the web.",
   shortBio:
     "I'm a full-stack developer who loves turning complex problems into simple, elegant interfaces. I care about performance, clean code, and the small details that make products feel great to use.",
-  longBio: `Write 2-3 paragraphs here about your journey, what drives you,
-and what kind of work excites you. Mention your background, how you got
-into development, and what you're focused on now.`,
-  location: "Bengaluru, India", // change to your city
-  email: "your@email.com",
-  resumeUrl: "/resume.pdf", // place your resume in /public
+  longBio: `I'm Ganesh Nandi, a BCA student with a strong passion for technology, UI/UX design, and full-stack web development. I enjoy turning ideas into clean, user-friendly digital products by combining creativity with problem-solving.
+
+I have worked on multiple web and mobile application projects using React, the MERN stack, Supabase, and modern development tools. My interests include designing intuitive user experiences, building scalable applications, and continuously learning new technologies. I have also participated in hackathons, where I collaborated with teams to solve real-world problems and improve my technical and design skills.
+
+I'm always looking for opportunities to learn, contribute to meaningful projects, and grow as a developer and designer while creating solutions that make a positive impact.`,
+  location: "Bengaluru, India",
+  email: "nandiganesh305@gmail.com",
+  resumeUrl: "/resume.pdf",
   availability: "Open to freelance & full-time opportunities",
-  url: "https://ganesh-nandi.vercel.app", // your production URL — used for SEO/canonical/sitemap
+  url: "https://ganeshnandi.in",
 };
 
 export const SOCIALS = [
-  { label: "GitHub", url: "https://github.com/yourusername" },
-  { label: "LinkedIn", url: "https://linkedin.com/in/yourusername" },
-  { label: "Twitter / X", url: "https://x.com/yourusername" },
-  { label: "Email", url: "mailto:your@email.com" },
+  { label: "GitHub", url: "https://github.com/nandiganesh" },
+  { label: "LinkedIn", url: "https://www.linkedin.com/in/ganeshnandi" },
+  { label: "Instagram", url: "https://www.instagram.com/ganu_sn" },
+  { label: "Email", url: "mailto:nandiganesh305@gmail.com" },
 ];
 
 // Big numbers shown in the hero/stats section
